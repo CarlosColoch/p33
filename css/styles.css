@@ -1,0 +1,113 @@
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+  
+/*  
+  backround-color: rgb(228, 252, 236);
+  font-size: 1.4rem;
+   
+  display: flex; 
+  justify-content: space-beteween;
+  align-items: center; */
+}
+
+.header__logo {
+    width: 105px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+
+header img {
+   width: 60px;
+}
+
+header nav {
+    width; 281px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+header nave a {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 16px;
+
+}
+
+.header__link:hover {
+    background-color: cyan;
+
+}
+
+.cards {
+   background-color: rgb(255, 255, 235);
+   display: grid;
+   /* grid-template-columns: 1fr 1fr 1fr 1fr;  opcion x */
+
+   
+   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+   gap: 10px;
+}
+
+.card {
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}    
+
+.card:hover {
+    background-color: cyan;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(235, 248, 255);
+}
+
+small {
+    font-size: larger;
+}
+
+@media screen and (max-width: 52em) {
+    main {
+	     flex-direction: column;
+    }
+
+    main article, main aside {
+         flex: 1;
+    }
+    
+} 
+
+      
